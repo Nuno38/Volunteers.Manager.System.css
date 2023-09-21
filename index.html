@@ -1,0 +1,116 @@
+<!Doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="view-port" content="width=width, initial-scale=1.0">
+    <title>Reino church</title>
+    <meta name="keywords" content="Chuch,Igreja,Reino church,igreja Reino">
+    <meta name="author" content="Elias joão do nascimento jr">
+    <link rel="stylesheet" href="reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <link rel="stylesheet"  href="Styles/styles.mobile.css">
+    <link rel="stylesheet" href="Styles/header.css">
+    <link rel="icon" type="image/icon" href="C:\Users\nuno_\OneDrive\Área de Trabalho\Portifólio\Volunteers Manager System\Volunteers Manager System.css\imagens\favicon.png">
+    
+ </head>
+<body>
+   <header class="cabecalho">
+      <div class="container">  
+         <input type="checkbox" id="menu" class="container__botao"> <!-- realiza um check box se for verdadeiro -->
+         <label for="menu">
+         <span class="cabeçalho__menu-hamburger container_imagem"></span> 
+         </label> <!-- até aqui-->
+         <ul class="lista-menu">
+            <li class="lista-menu__titulo">Menu</li>
+            <li class="lista-menu__item">
+               <a href="#" class="lista-menu__link">Volunteers</a>
+            </li>
+            <li class="lista-menu__item">
+               <a href="#" class="lista-menu__link">Lideres</a>
+            </li>
+            <li class="lista-menu__item">
+               <a href="#" class="lista-menu__link">Fotos</a>
+            </li>
+            <li class="lista-menu__item">
+               <a href="#" class="lista-menu__link">Eventos</a>
+            </li>
+         </ul>
+         <img src="../Volunteers Manager System.css/imagens/Logo reino.png" class="container_imagem" alt="Logo de graziane nascimentooficial"></imag>
+      </div>
+    <div class="container">
+      
+      <img src="..//Volunteers Manager System.css/imagens/Whatssapp.png"  class="acesso"  alt="imagem de login de acesso">
+      <img src="../Volunteers Manager System.css/imagens/Log.insta.png" class="container_imagem tamanho_logo" alt="Logo do instagram">
+    
+
+   </div>
+   </header>
+   <section class="banner">
+      <a scr=""  class="Welcome" 
+      alt="Imagem Bem-vindo a Reino, viendo o ordinário de forma extraordinária, 
+      com liberdade, relevâcia e profundidade na palavra."></a> 
+   </section>
+   <br>
+   <br>
+   <br>
+
+   <section class="carrossel">
+    <h2 class="carrossel__texto">Próximos Eventos</h2>
+
+    <!-- Slider main container -->
+<div class="swiper">
+   <!-- Additional required wrapper -->
+   <!-- troca de fotos ao clicar -->
+   <div class="swiper-pagination"></div>
+   <div class="swiper-wrapper">
+     <!-- Slides -->
+     <div class="swiper-slide"><img src="../Volunteers Manager System.css/imagens/Mentes de governo.jpg" alt="Foto evento mente de governo"></div>
+     <div class="swiper-slide"><img src="../Volunteers Manager System.css/imagens/Perguntas e pergaminhos.jpg" alt="Foto evento entre perguntas e pergaminhos"></div>
+     <div class="swiper-slide"><img src="../Volunteers Manager System.css/imagens/Simplimente jesus.jpg"alt="Foto evento simplismente Jesus"></div>
+   </div>
+   
+ 
+   <!-- If we need navigation buttons/ serve para navegação dos botõe.. foi olcutado -->
+   <div class="swiper-button-prev"></div>
+   <div class="swiper-button-next"></div>
+ </div>
+
+
+ <div class="agenda">
+   <!-- 1° linha-->
+   <div class="agenda_descrição">
+      <!--1° coluna-->
+      <div class="descrição">
+        <!--
+         <h3 class="descrição__titulo">Horarios disponíveis?</h3>
+         <h2 class="data__titilo-disponivel">Agenda</h2>
+
+         2° coluna
+          <img src="imagens/agenda.png" class="imagem__agenda" alt="Imagem de uma agenda">  ajustar depois
+         -->
+
+      </div>
+   </div>
+ </div>
+ <!--2° linha
+ <div class="agenda__botoes">
+   <a href="" class="botoes__ancora"> Clique aqui para agendar</a>
+ </div>
+ -->
+   </section>
+
+   <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+   <script>
+      const swiper = new Swiper('.swiper', {
+  spaceBetween: 10,
+  slidesPerView: 3,
+   pagination:{
+   el:'.swiper-pagination',
+   type:'bullets',
+   
+  },
+});
+   </script>
+</body>
+</html>
