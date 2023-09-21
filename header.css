@@ -1,0 +1,73 @@
+.cabeçalho__menu-hamburger{
+       width: 35px;
+       height:35px;
+       background-image: url("../imagens/menu-hamburger.png");
+       background-repeat: no-repeat;
+       background-position: center;
+       display:inline-block;
+       margin: 0px 0px 0px 10px;
+}
+
+.cabecalho{
+       
+       background-color: var(--cor-de-fundo);
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       position: relative; /** permite inserir outros atributos a botar pra cima pra baixo **/
+       width: -880px;
+}
+.container{
+       display: flex;
+       align-items: center;
+       background-color: var(--cor-de-fundo);
+}
+
+.container_imagem{
+       padding: 1em;
+       text-align: center;
+      width: 90px;
+
+}
+
+.tamanho_logo,.acesso{
+       width: 45px;
+       
+}
+.lista-menu{
+       display: none;
+       position: absolute; /** determina quem vem antes de depois da posição do menu **/
+       top: 84%; /* serve para descer a lista do menu */
+       width: 30vw;
+       margin: 0px 0px 0px -40px;
+       list-style-type: none;
+       background-color: var(--Cor-de-fundo);
+}
+
+.container__botao:checked~ .lista-menu{
+       display: block; /** o ~ usado serve como condicionador ***/
+}
+
+.lista-menu__titulo,
+ .lista-menu__item{
+    padding: 1em;
+    background-color: var(--branco);
+}
+
+.lista-menu__titulo{
+       color: var(--laranja);
+       font-weight: 700;
+} 
+
+.lista-menu__link{
+       color: var(--preto);
+       -webkit-background-clip: text;
+       -webkit-animation-fill-color:transparent;
+       background-clip: text;
+       text-transform: uppercase;
+       text-decoration: none;
+}
+
+.container__botao{
+       display: none;
+}

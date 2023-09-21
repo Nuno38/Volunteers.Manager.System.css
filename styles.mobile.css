@@ -1,0 +1,19 @@
+@import url("styles/header.css");
+@import url("styles.banner.css");
+@import url("carrossel.css");
+:root{
+    --Cor-de-fundo:#f2f2f2;
+    --Azul:rgb(135, 217, 241);
+    --laranja:orange;
+    --preto: black;
+    --marron:#9e735f;
+    --fonte-principal:"roboto";
+}
+body{
+    background-color: var(--Cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 300;
+    font-display: swap;
+    
+}
