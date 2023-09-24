@@ -17,15 +17,18 @@
 <body>
    <header class="cabecalho">
       <div class="container">  
-         <input type="checkbox" id="menu" class="container__botao"> <!-- realiza um check box se for verdadeiro -->
+         <input type="checkbox" id="menu" class="container__botao">
          <label for="menu">
          <span class="cabecalho__menu-hamburger container_imagem"></span> 
          </label> <!-- até aqui-->
          <ul class="lista-menu">
-		 <br>
-            <li class="lista-menu__titulo">Menu</li>
+            <li class="lista-menu__titulo">
+			<br>
+			<a href="index.html" class="lista-menu__titulo"> Inicio</a>
+			</li>
+			
             <li class="lista-menu__item">
-               <a href="volunteers.index.html" class="lista-menu__link">Volunteers</a>
+               <a href="#" class="lista-menu__link">Volunteers</a>
             </li>
             <li class="lista-menu__item">
                <a href="#" class="lista-menu__link">Lideres</a>
@@ -37,21 +40,70 @@
                <a href="#" class="lista-menu__link">Eventos</a>
             </li>
          </ul>
-         <img src="logo-Reino.png" class="container_imagem" alt="Logo da Reino church"></imag>
+         <img src="Logo-reino.png" class="container_imagem" alt="Logo da Reino church"></imag>
       </div>
     <div class="container">
       
-      <img src="Whatssapp.png"  class="acesso"  alt="imagem do logo Whatssapp">
+      <img src="Whatssapp.png"  class="acesso"  alt="imagem de login de acesso">
       <img src="Log.insta.png" class="container_imagem tamanho_logo" alt="Logo do instagram">
     
 
    </div>
    </header>
-   <section class="banner">
-      <a scr=""  class="Welcome" 
-      alt="Imagem Bem-vindo a Reino, viendo o ordinário de forma extraordinária, 
-      com liberdade, relevâcia e profundidade na palavra."></a> 
-   </section>
+   <br>
+   <br> 
+   <hr>
+   <div class="Volunteers">
+  
+   <h1> Insira seus dados! </h1>
+   <br>
+   
+     <form class="formulario">
+	         <label for="nome" >Escreva seu nome</label>
+	         <input type="text" name="nome">
+			 <br>
+	         <label for="e-mail">Insira seu e-mail</label>
+			 <input type="text" e-mail="e-mail">
+			 <br>
+			 <label for="telefone">Insira seu número de telefone</label>
+			 <input type="number" number="telefone"><br>
+			 
+			 
+			 <h4>Selecione o grupo deseja ser voluntário.</h4>
+			 <input type="radio" id="welcome Team" name="grupo" value="welcome Team">
+			 <label for="welcome Team"> Welcome Team </label>
+			 <input type="radio" id="Creative" name="grupo" value="Creative">
+			 <label for="Creative"> Creative </label>
+			 <input type="radio" id="Workship" name="grupo" value="Workship">
+			 <label for="Workiship"> Workship </label>
+			 <input type="radio" id="TI" name="grupo" value="TI">
+			 <label for="TI"> Ti </label>
+			 <input type="radio" id="Parking Team" name="grupo" value="Parking team">
+			 <label for="Paaking team"> Parking Team </label>
+			 <input type="radio" id="Front Lobby" name="grupo" value="Front Lobby">
+			  <label for="Front Lobby"> Front Lobby </label>
+			 <input type="radio" id="Produção" name="grupo" value="Produção">
+			 <label for="Produção"> Produção </label>
+			 <input type="radio" id="Auditorio" name="grupo" value="Auditorio">
+			  <label for="Auditorio"> Auditorio </label>
+			 <input type="radio" id="Setup" name="grupo" value="Setup">
+			 <label for="Setup"> Setup </label>
+			 <input type="radio" id="Kids" name="grupo" value="Kids">
+			 <label for="Kids"> Kids </label>
+			 <input type="radio" id="Iluminação" name="grupo" value="Iluminação">
+			 <label for="Iluminação"> Iluminação </label>
+			 
+			 
+			 
+	 
+	 </form>
+      
+	 
+	  <br>
+	  <br>
+	  
+	 
+   </div>
    <br>
    <br>
    <br>

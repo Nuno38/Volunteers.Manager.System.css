@@ -26,7 +26,7 @@
 .container_imagem{
        padding: 1em;
        text-align: center;
-      width: 90px;
+       width: 80px;
 
 }
 
@@ -48,7 +48,6 @@
        display: block; /** o ~ usado serve como condicionador ***/
 }
 
-.lista-menu__titulo,
  .lista-menu__item{
     padding: 1em;
     background-color: var(--branco);
@@ -56,7 +55,10 @@
 
 .lista-menu__titulo{
        color: var(--laranja);
-       font-weight: 700;
+       font-weight: 600;
+	   text-decoration:none;
+	   text-transform: uppercase;
+	   margin: 0px 0px 0px 10.1px;
 } 
 
 .lista-menu__link{
@@ -71,3 +73,41 @@
 .container__botao{
        display: none;
 }
+
+.Volunteers{
+	background-color:#a6c0bf;
+	border-radius: 50px;
+	text-align:center;
+	align-items:center;
+	color: white;
+	line-height: 3.2;
+	box-shadow: blue;
+	text-decoration:none;
+	margin: 0px 100px 0px 100px;
+	
+}
+.button{
+	
+	text-decoration:none;
+	border-radius: 5px;
+	text-align:center;
+	color:white;
+	display:inline-block;
+	font-size:16px;
+	margin: 4px 2px;
+	
+	
+}
+.bnt1{
+	background-color:white;
+	color:black;
+	border-radius: 5px;
+	text-decoration: none;
+	margin: 3px 8px;
+	cursor:pointer;
+	display:inline-block;
+}
+.bnt1:hover{
+	background-color:#a6c0bf;
+}
+

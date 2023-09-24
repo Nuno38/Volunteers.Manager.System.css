@@ -7,7 +7,7 @@
     --laranja:orange;
     --preto: black;
     --marron:#9e735f;
-    --fonte-principal:"roboto";
+    --fonte-principal:"arial";
 }
 body{
     background-color: var(--Cor-de-fundo);
@@ -16,4 +16,6 @@ body{
     font-weight: 300;
     font-display: swap;
     
+}.formulario{
+   text-align:center;
 }
