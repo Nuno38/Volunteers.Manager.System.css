@@ -121,6 +121,8 @@
        padding: 2px 3px;
        margin: 6px 6px 10px;
        border-radius: 10px;
+	border-styles:insert;
+	padding-inline: 2px;
 }
 .escolha{
        padding: 2px 2px;
