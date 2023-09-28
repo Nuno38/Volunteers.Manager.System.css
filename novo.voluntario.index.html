@@ -1,32 +1,34 @@
 <!Doctype html>
 <html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="view-port" content="width=width, initial-scale=1.0">
-    <title>Reino church</title>
-    <meta name="keywords" content="Chuch,Igreja,Reino church,igreja Reino">
-    <meta name="author" content="Elias joão do nascimento jr">
-    <link rel="stylesheet" href="reset.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
-    <link rel="stylesheet"  href="styles.mobile.css">
-    <link rel="stylesheet" href="header.css">
-    <link rel="icon" type="image/icon" href="Favicon-Reino.png">
-    
- </head>
+   <meta charset="UTF-8">
+   <meta name="view-port" content="width=width, initial-scale=1.0">
+   <title>Reino church</title>
+   <meta name="keywords" content="Chuch,Igreja,Reino church,igreja Reino">
+   <meta name="author" content="Elias joão do nascimento jr">
+   <link rel="stylesheet" href="reset.css">
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+   <link rel="stylesheet" href="../Volunteers Manager System.css/Styles/styles.mobile.css">
+   <link rel="stylesheet" href="../Volunteers Manager System.css/Styles/header.css">
+   <link rel="icon" type="image/icon" href="../Volunteers Manager System.css/imagens/Favicon-Reino.png">
+
+</head>
+
 <body>
    <header class="cabecalho">
-      <div class="container">  
+      <div class="container">
          <input type="checkbox" id="menu" class="container__botao">
          <label for="menu">
-         <span class="cabecalho__menu-hamburger container_imagem"></span> 
+            <span class="cabecalho__menu-hamburger container_imagem"></span>
          </label> <!-- até aqui-->
          <ul class="lista-menu">
             <li class="lista-menu__titulo">
-			<br>
-			<a href="index.html" class="lista-menu__titulo"> Inicio</a>
-			</li>
-			
+               <br>
+               <a href="index.html" class="lista-menu__titulo"> Inicio</a>
+            </li>
+
             <li class="lista-menu__item">
                <a href="#" class="lista-menu__link">Volunteers</a>
             </li>
@@ -40,102 +42,164 @@
                <a href="#" class="lista-menu__link">Eventos</a>
             </li>
          </ul>
-         <img src="Logo-reino.png" class="container_imagem" alt="Logo da Reino church"></imag>
+         <img src="../Volunteers Manager System.css/imagens/Logo-reino.png" class="container_imagem"
+            alt="Logo da Reino church"></imag>
       </div>
-    <div class="container">
-      
-      <img src="Whatssapp.png"  class="acesso"  alt="imagem de login de acesso">
-      <img src="Log.insta.png" class="container_imagem tamanho_logo" alt="Logo do instagram">
-    
+      <div class="container">
 
-   </div>
+         <img src="../Volunteers Manager System.css/imagens/Whatssapp.png" class="acesso" alt="Logo Whatssapp">
+         <img src="../Volunteers Manager System.css/imagens/Log.insta.png " class="container_imagem tamanho_logo"
+            alt="Logo do instagram">
+
+
+      </div>
    </header>
    <br>
-   <br> 
+   <br>
    <hr>
    <div class="Volunteers">
-  
-   <h1> Insira seus dados! </h1>
-   <br>
-   
-     <form class="formulario">
-	         <label for="nome" >Escreva seu nome</label>
-	         <input type="text" name="nome">
-			 <br>
-	         <label for="e-mail">Insira seu e-mail</label>
-			 <input type="text" e-mail="e-mail">
-			 <br>
-			 <label for="telefone">Insira seu número de telefone</label>
-			 <input type="number" number="telefone"><br>
-			 
-			 
-			 <h4>Selecione o grupo deseja ser voluntário.</h4>
-			 <input type="radio" id="welcome Team" name="grupo" value="welcome Team">
-			 <label for="welcome Team"> Welcome Team </label>
-			 <input type="radio" id="Creative" name="grupo" value="Creative">
-			 <label for="Creative"> Creative </label>
-			 <input type="radio" id="Workship" name="grupo" value="Workship">
-			 <label for="Workiship"> Workship </label>
-			 <input type="radio" id="TI" name="grupo" value="TI">
-			 <label for="TI"> Ti </label>
-			 <input type="radio" id="Parking Team" name="grupo" value="Parking team">
-			 <label for="Paaking team"> Parking Team </label>
-			 <input type="radio" id="Front Lobby" name="grupo" value="Front Lobby">
-			  <label for="Front Lobby"> Front Lobby </label>
-			 <input type="radio" id="Produção" name="grupo" value="Produção">
-			 <label for="Produção"> Produção </label>
-			 <input type="radio" id="Auditorio" name="grupo" value="Auditorio">
-			  <label for="Auditorio"> Auditorio </label>
-			 <input type="radio" id="Setup" name="grupo" value="Setup">
-			 <label for="Setup"> Setup </label>
-			 <input type="radio" id="Kids" name="grupo" value="Kids">
-			 <label for="Kids"> Kids </label>
-			 <input type="radio" id="Iluminação" name="grupo" value="Iluminação">
-			 <label for="Iluminação"> Iluminação </label>
-			 
-			 
-			 
-	 
-	 </form>
-      
-	 
-	  <br>
-	  <br>
-	  
-	 
+
+      <h1> Insira seus dados! </h1>
+      <br>
+
+      <form class="formulario">
+         <label for="nome">Escreva seu nome </label>
+         <input type="text" name="nome">
+
+         <label for="e-mail"> Insira seu e-mail </label>
+         <input type="text" e-mail="e-mail">
+
+         <br>
+         <label for="telefone">Telefone </label>
+         <input type="tel" number="telefone" placeholder="(xx) xxx-xxxxxx" pattern="[0-9]{2}-[0-9]{3}-[0-9]{6}">
+
+         <label for="nascimento"> Data de nascimento </label>
+         <input type="date" id="birth">
+
+         <br>
+         <label for="First" class="escolha"> Primeira vez na Reino? </label>
+         <select id="First" name="Place">
+            <option value="Sim">Sim</option>
+            <option value="Não">Não</option>
+         </select>
+         <label for="First" class="escolha"> </label>
+         <select id="First" name="Place">
+            <option value="Homem">Homem</option>
+            <option value="Mulher">Mulher</option>
+         </select>
+         <h2>
+            Quer ser um Voluntario?
+         </h2>
+         <hr>
+
+         <input type="radio" id="welcome Team" name="grupo" value="welcome Team">
+         <label for="welcome Team"> Welcome Team </label>
+         <input type="radio" id="Creative" name="grupo" value="Creative">
+         <label for="Creative"> Creative </label>
+         <input type="radio" id="Workship" name="grupo" value="Workship">
+         <label for="Workiship"> Workship </label>
+         <input type="radio" id="TI" name="grupo" value="TI">
+         <label for="TI"> Ti </label>
+         <input type="radio" id="Parking Team" name="grupo" value="Parking team">
+         <label for="Paaking team"> Parking Team </label>
+         <input type="radio" id="Front Lobby" name="grupo" value="Front Lobby">
+         <label for="Front Lobby"> Front Lobby </label>
+         <input type="radio" id="Produção" name="grupo" value="Produção">
+         <label for="Produção"> Produção </label>
+         <input type="radio" id="Auditorio" name="grupo" value="Auditorio">
+         <label for="Auditorio"> Auditorio </label>
+         <input type="radio" id="Setup" name="grupo" value="Setup">
+         <label for="Setup"> Setup </label>
+         <input type="radio" id="Kids" name="grupo" value="Kids">
+         <label for="Kids"> Kids </label>
+         <br>
+         <input type="radio" id="Iluminação" name="grupo" value="Iluminação">
+         <label for="Iluminação"> Iluminação </label>
+         <input type="radio" id="Essentials" name="grupo" value="Essentials">
+         <label for="Essentials"> Essentials School </label>
+         <input type="radio" id="Pastoral" name="grupo" value="Pastoral">
+         <label for="Pastoral"> Pastoral Care </label>
+         <input type="radio" id="Produção/transmisão" name="grupo" value="Produção/transmisão">
+         <label for="Produção/transmisão"> Prodoção/Transmisão </label>
+         <input type="radio" id="Audio" name="grupo" value="Audio">
+         <label for="Audio"> Audio </label>
+         <input type="radio" id="Streaming" name="grupo" value="Streaming">
+         <label for="Streaming"> Streaming </label>
+         <input type="radio" id="Graphics" name="grupo" value="Graphics">
+         <label for="Graphics"> Graphics </label>
+         <input type="radio" id="Merch" name="grupo" value="Merch">
+         <label for="Merch"> Merch </label>
+         <input type="radio" id="Video" name="grupo" value="Video">
+         <label for="Video"> Vídeo </label>
+         <input type="radio" id="Photo" name="grupo" value="Photo">
+         <label for="Photo"> Photo </label>
+         <input type="radio" id="Batismo" name="grupo" value="Batismo">
+         <label for="Batismo"> Batismo/Apresentação </label>
+         <input type="radio" id="Lideres" name="grupo" value="Lideres">
+         <label for="Lideres"> Lideres </label>
+           <br>
+           <h3>Decisões</h3>
+           <input type="radio" id="decisao" name="grupo" value="decisao">
+         <label for="Lideres"> Eu decido seguir jesus </label>
+         <input type="radio" id="batismo" name="grupo" value="batismo">
+         <label for="Lideres"> Eu quero me battizar </label>
+         <br>
+         <label for="submition">Deseja finalizar?</label>
+         <input type="submit" value="Enviar" class="button-submition">
+
+         
+
+
+      </form>
+
+
+      <br>
+      <br>
+
+
    </div>
    <br>
    <br>
    <br>
 
    <section class="carrossel">
-    <h2 class="carrossel__texto">Próximos Eventos</h2>
+      <h2 class="carrossel__texto">Voluntáriado</h2>
 
-    <!-- Slider main container -->
-<div class="swiper">
-   <!-- Additional required wrapper -->
-   <!-- troca de fotos ao clicar -->
-   <div class="swiper-pagination"></div>
-   <div class="swiper-wrapper">
-     <!-- Slides -->
-     <div class="swiper-slide"><img src="Mentes de governo.jpg" alt="Foto evento mente de governo"></div>
-     <div class="swiper-slide"><img src="Perguntas e pergaminhos.jpg" alt="Foto evento entre perguntas e pergaminhos"></div>
-     <div class="swiper-slide"><img src="Simplimente jesus.jpg"alt="Foto evento simplismente Jesus"></div>
-   </div>
-   
- 
-   <!-- If we need navigation buttons/ serve para navegação dos botõe.. foi olcutado -->
-   <div class="swiper-button-prev"></div>
-   <div class="swiper-button-next"></div>
- </div>
+      <!-- Slider main container -->
+      <div class="swiper">
+         <!-- Additional required wrapper -->
+         <!-- troca de fotos ao clicar -->
+         <div class="swiper-pagination"></div>
+         <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide"><img src="../Volunteers Manager System.css/imagens/Imagens Grupos/FRONT LOB.png"
+                  alt="Foto evento mente de governo"></div>
+            <div class="swiper-slide"><img src="../Volunteers Manager System.css/imagens/Imagens Grupos/PRODUÇÃO.png"
+                  alt="Foto evento entre perguntas e pergaminhos"></div>
+            <div class="swiper-slide"><img src="../Volunteers Manager System.css/imagens/Imagens Grupos/KIDS.png"
+                  alt="Foto evento simplismente Jesus"></div>
+                  <div class="swiper-slide"><img src="../Volunteers Manager System.css/imagens/Imagens Grupos/LÍDERES.png"
+                     alt="Foto evento simplismente Jesus"></div>
+                     <div class="swiper-slide"><img src="../Volunteers Manager System.css/imagens/Imagens Grupos/HOSPITALIDADE.png"
+                        alt="Foto evento simplismente Jesus"></div>
+                        <div class="swiper-slide"><img src="../Volunteers Manager System.css/imagens/Imagens Grupos/WORSHIP.png"
+                           alt="Foto evento simplismente Jesus"></div>
+                           <div class="swiper-slide"><img src="../Volunteers Manager System.css/imagens/Imagens Grupos/WORSHIP2.png"
+                              alt="Foto evento simplismente Jesus"></div>
 
 
- <div class="agenda">
-   <!-- 1° linha-->
-   <div class="agenda_descrição">
-      <!--1° coluna-->
-      <div class="descrição">
-        <!--
+         <!-- If we need navigation buttons/ serve para navegação dos botõe.. foi olcutado -->
+         <div class="swiper-button-prev"></div>
+         <div class="swiper-button-next"></div>
+      </div>
+
+
+      <div class="agenda">
+         <!-- 1° linha-->
+         <div class="agenda_descrição">
+            <!--1° coluna-->
+            <div class="descrição">
+               <!--
          <h3 class="descrição__titulo">Horarios disponíveis?</h3>
          <h2 class="data__titilo-disponivel">Agenda</h2>
 
@@ -143,27 +207,54 @@
           <img src="imagens/agenda.png" class="imagem__agenda" alt="Imagem de uma agenda">  ajustar depois
          -->
 
+            </div>
+         </div>
       </div>
-   </div>
- </div>
- <!--2° linha
+      <!--2° linha
  <div class="agenda__botoes">
    <a href="" class="botoes__ancora"> Clique aqui para agendar</a>
  </div>
  -->
    </section>
+   <script>
+      function getAge(birth) {
+         const current = new Date()
+         let diff = current.getFullYear() - birth.getFullYear()
+
+         if (
+            new Date(current.getFullYear(), current.getMonth(), current.getDate()) <
+            new Date(current.getFullYear(), birth.getMonth(), birth.getDate())
+         )
+            diff--
+
+         return diff
+      }
+
+      // "Pegar" os elementos dos campos:
+      const birthField = document.querySelector('#birth')
+      const ageField = document.querySelector('#age')
+
+      // Calcular a idade sempre que o campo da data de nascimento for alterado:
+      birthField.addEventListener('change', (event) => {
+         const date = new Date(event.target.value)
+
+         // concatenando a idade calculada com o termo "anos":
+         ageField.value = getAge(date) + ' anos'
+      })
+   </script>
 
    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
    <script>
       const swiper = new Swiper('.swiper', {
-  spaceBetween: 10,
-  slidesPerView: 3,
-   pagination:{
-   el:'.swiper-pagination',
-   type:'bullets',
-   
-  },
-});
+         spaceBetween: 10,
+         slidesPerView: 3,
+         pagination: {
+            el: '.swiper-pagination',
+            type: 'bullets',
+
+         },
+      });
    </script>
 </body>
+
 </html>
