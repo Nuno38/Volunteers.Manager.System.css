@@ -1,7 +1,7 @@
 .cabecalho__menu-hamburger{
        width: 35px;
        height:35px;
-       background-image: url("menu-hamburger.png");
+       background-image: url("../imagens/menu-hamburger.png");
        background-repeat: no-repeat;
        background-position: center;
        display:inline-block;
@@ -27,11 +27,20 @@
        padding: 1em;
        text-align: center;
        width: 80px;
-
+       
+      
+}.Logo-reino{
+       width: 85px;
+       margin: 0px 0px 0px 15px;
+}
+.welcome{
+       width: 80px;
+       margin: 0px 0px 0px -50px;
 }
 
 .tamanho_logo,.acesso{
-       width: 45px;
+       width: 35px;
+       
        
 }
 .lista-menu{
@@ -110,16 +119,16 @@
 .bnt1:hover{
 	background-color:#a6c0bf;
 }
-.formulario{
+.form{
        display: inline-table;
        text-align: center;
        font-size: large;
 }
-.formulario label{
+.form label{
        display: inline-flexbox;
        text-align: center;
 }
-.formulario input{
+.form input{
 
        margin: 0px 8px 0px 11px;
        border-radius: 5px;
