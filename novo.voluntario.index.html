@@ -10,9 +10,9 @@
    <link rel="stylesheet" href="reset.css">
    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
-   <link rel="stylesheet" href="styles.mobile.css">
-   <link rel="stylesheet" href="header.css">
-   <link rel="icon" type="image/icon" href="Favicon-Reino.png">
+   <link rel="stylesheet" href="../Volunteers Manager System.css/Styles/styles.mobile.css">
+   <link rel="stylesheet" href="../Volunteers Manager System.css/Styles/header.css">
+   <link rel="icon" type="image/icon" href="../Volunteers Manager System.css/imagens/Favicon-Reino.png">
 
 </head>
 
@@ -42,19 +42,18 @@
                <a href="#" class="lista-menu__link">Eventos</a>
             </li>
          </ul>
-         <img src="Logo-reino.png" class="container_imagem"
+         <img src="../Volunteers Manager System.css/imagens/Logo-reino.png" class="container_imagem"
             alt="Logo da Reino church"></imag>
       </div>
       <div class="container">
 
-         <img src="Whatssapp.png" class="acesso" alt="Logo Whatssapp">
-         <img src="Log.insta.png " class="container_imagem tamanho_logo"
+         <img src="../Volunteers Manager System.css/imagens/Whatssapp.png" class="acesso" alt="Logo Whatssapp">
+         <img src="../Volunteers Manager System.css/imagens/Log.insta.png" class="container_imagem tamanho_logo"
             alt="Logo do instagram">
 
 
       </div>
    </header>
-   <br>
    <br>
    <hr>
    <div class="Volunteers">
@@ -62,28 +61,31 @@
       <h1> Insira seus dados! </h1>
       <br>
 
-      <form class="formulario">
-         <label for="nome">Escreva seu nome </label>
-         <input type="text" name="nome">
+      <form class="formulario" action="https://api.sheetmonkey.io/form/mSFvk3UHHxduAbb7v1hV99" method="post">
+        
+         <label>
+         <span>Nome</span>
+         <input type="text" name="Nome">
+         </label>
 
-         <label for="e-mail"> Insira seu e-mail </label>
-         <input type="text" e-mail="e-mail">
-
+         <label>E-mail</label>
+         <input type="email"  name="email" e-mail="E-mail">
+         
          <br>
          <label for="telefone">Telefone </label>
-         <input type="tel" number="telefone" placeholder="(xx) xxx-xxxxxx" pattern="[0-9]{2}-[0-9]{3}-[0-9]{6}">
+         <input type="number"  name="Telefone" number="telefone" required placeholder="(xx)xxxxx-xxxx">
 
-         <label for="nascimento"> Data de nascimento </label>
-         <input type="date" id="birth">
+         <label for="Data de aniversário"> Data de nascimento </label>
+         <input type="date" name="data de aniversário" value="Data de aniversário">
 
          <br>
-         <label for="First" class="escolha"> Primeira vez na Reino? </label>
-         <select id="First" name="Place">
+         <label for="primeira vez" class="escolha"> Primeira vez na Reino? </label>
+         <select id="First" name="Primeira vez">
             <option value="Sim">Sim</option>
             <option value="Não">Não</option>
          </select>
          <label for="First" class="escolha"> </label>
-         <select id="First" name="Place">
+         <select id="Sexo" name="Sexo">
             <option value="Homem">Homem</option>
             <option value="Mulher">Mulher</option>
          </select>
@@ -91,52 +93,47 @@
             Quer ser um Voluntario?
          </h2>
          <hr>
-          <h3> Áreas verdes</h3>
+         <h3> Áreas verdes</h3>
 
-         
-        <input type="radio" id="Next step" name="grupo" value="Next step">
+
+         <input type="radio" id="Next step" name="Volunteers" value="Next step">
          <label for="Merch"> Next step </label>
-         <input type="radio" id="Parking Team" name="grupo" value="Parking team">
+         <input type="radio" id="Parking Team" name="Volunteers" value="Parking team">
          <label for="Paaking team"> Parking Team </label>
-         <input type="radio" id="Front Lobby" name="grupo" value="Front Lobby">
+         <input type="radio" id="Front Lobby" name="Volunteers" value="Front Lobby">
          <label for="Front Lobby"> Front Lobby </label>
-         <input type="radio" id="Produção" name="grupo" value="Produção">
+         <input type="radio" id="Produção" name="Volunteers" value="Produção">
          <label for="Produção"> Produção </label>
          <br>
-         <input type="radio" id="Auditorio" name="grupo" value="Auditorio">
+         <input type="radio" id="Auditorio" name="Volunteers" value="Auditorio">
          <label for="Auditorio"> Auditorio </label>
-         <input type="radio" id="Setup" name="grupo" value="Setup">
+         <input type="radio" id="Setup" name="Volunteers" value="Setup">
          <label for="Setup"> Setup </label>
-         <input type="radio" id="Merch" name="grupo" value="Merch">
+         <input type="radio" id="Merch" name="Volunteers" value="Merch">
          <label for="Merch"> Merch </label>
-          <input type="radio" id="Style" name="grupo" value="Style">
+         <input type="radio" id="Style" name="Volunteers" value="Style">
          <label for="Merch"> Style </label>
-        
-         
-        
-        
+
          <hr>
          <h3> Áreas vermelhas</h3>
-          <input type="radio" id="Creative" name="grupo" value="Creative">
+         <input type="radio" id="Creative" name="Volunteers" value="Creative">
          <label for="Creative"> Creative </label>
-         <input type="radio" id="Workship" name="grupo" value="Workship">
+         <input type="radio" id="Workship" name="volunteers" value="Workship">
          <label for="Workiship"> Workship </label>
-          <input type="radio" id="Kids" name="grupo" value="Kids">
-          <label for="Kids"> Kids </label>
-         <input type="radio" id="Ensino" name="grupo" value="ensino">
-         <label for="Photo"> Ensino </label>
-        
-           <br>
-           <h3>Decisões</h3>
-           <input type="radio" id="decisao" name="grupo" value="decisao">
-         <label for="Lideres"> Eu decido seguir jesus </label>
-         <input type="radio" id="batismo" name="grupo" value="batismo">
-         <label for="Lideres"> Eu quero me batizar </label>
+         <input type="radio" id="Kids" name="Volunteers" value="Kids">
+         <label for="Kids"> Kids </label>
+         <input type="radio" id="Ensino" name="Volunteers" value="ensino">
+         <label for="Ensino"> Ensino </label>
+
+         <br>
+         <h3>Decisões</h3>
+         <input type="radio" id="Aceito a jesus" name="Aceito a jesus" value="Sim">
+         <label for="Aceito a jesus"> Eu decido seguir jesus </label>
+         <input type="radio" id="Batismo" name="Deseja se batizar" value="Desejo me batizar">
+         <label for="Batismo"> Eu quero me batizar </label>
          <br>
          <label for="submition">Deseja finalizar?</label>
          <input type="submit" value="Enviar" class="button-submition">
-
-         
 
 
       </form>
@@ -154,41 +151,40 @@
    <section class="carrossel">
       <h2 class="carrossel__texto">Voluntáriado</h2>
 
-      <!-- Slider main container -->
       <div class="swiper">
-         <!-- Additional required wrapper -->
-         <!-- troca de fotos ao clicar -->
+
          <div class="swiper-pagination"></div>
          <div class="swiper-wrapper">
-            <!-- Slides -->
-            <div class="swiper-slide"><img src="FRONT LOB.png"
-                  alt="Foto evento mente de governo"></div>
-            <div class="swiper-slide"><img src="PRODUÇÃO.png"
-                  alt="Foto evento entre perguntas e pergaminhos"></div>
-            <div class="swiper-slide"><img src="KIDS.png"
-                  alt="Foto evento simplismente Jesus"></div>
-                  <div class="swiper-slide"><img src="LÍDERES.png"
-                     alt="Foto evento simplismente Jesus"></div>
-                     <div class="swiper-slide"><img src="HOSPITALIDADE.png"
-                        alt="Foto evento simplismente Jesus"></div>
-                        <div class="swiper-slide"><img src="WORSHIP.png"
-                           alt="Foto evento simplismente Jesus"></div>
-                           <div class="swiper-slide"><img src="WORSHIP2.png"
-                              alt="Foto evento simplismente Jesus"></div>
+
+            <div class="swiper-slide"><img src="../Volunteers Manager System.css/imagens/Imagens Grupos/FRONT LOB.png"
+                  alt="Front Lob"></div>
+            <div class="swiper-slide"><img src="../Volunteers Manager System.css/imagens/Imagens Grupos/PRODUÇÃO.png"
+                  alt="Produção"></div>
+            <div class="swiper-slide"><img src="../Volunteers Manager System.css/imagens/Imagens Grupos/KIDS.png"
+                  alt="Kids"></div>
+            <div class="swiper-slide"><img src="../Volunteers Manager System.css/imagens/Imagens Grupos/LÍDERES.png"
+                  alt="Líderes"></div>
+            <div class="swiper-slide"><img
+                  src="../Volunteers Manager System.css/imagens/Imagens Grupos/HOSPITALIDADE.png" alt="HOSPITALIDADE">
+            </div>
+            <div class="swiper-slide"><img src="../Volunteers Manager System.css/imagens/Imagens Grupos/WORSHIP.png"
+                  alt="Workship"></div>
+            <div class="swiper-slide"><img src="../Volunteers Manager System.css/imagens/Imagens Grupos/WORSHIP2.png"
+                  alt="Workship"></div>
 
 
-         <!-- If we need navigation buttons/ serve para navegação dos botõe.. foi olcutado -->
-         <div class="swiper-button-prev"></div>
-         <div class="swiper-button-next"></div>
-      </div>
+
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+         </div>
 
 
-      <div class="agenda">
-         <!-- 1° linha-->
-         <div class="agenda_descrição">
-            <!--1° coluna-->
-            <div class="descrição">
-               <!--
+         <div class="Box-secundario">
+            <!-- 1° linha-->
+            <div class="Box_secund">
+               <!--1° coluna-->
+               <div class="Geral">
+                  <!--
          <h3 class="descrição__titulo">Horarios disponíveis?</h3>
          <h2 class="data__titilo-disponivel">Agenda</h2>
 
@@ -196,14 +192,15 @@
           <img src="imagens/agenda.png" class="imagem__agenda" alt="Imagem de uma agenda">  ajustar depois
          -->
 
+               </div>
             </div>
          </div>
-      </div>
-      <!--2° linha
+         <!--2° linha
  <div class="agenda__botoes">
    <a href="" class="botoes__ancora"> Clique aqui para agendar</a>
  </div>
  -->
+ 
    </section>
    <script>
       function getAge(birth) {
@@ -219,15 +216,15 @@
          return diff
       }
 
-      // "Pegar" os elementos dos campos:
+
       const birthField = document.querySelector('#birth')
       const ageField = document.querySelector('#age')
 
-      // Calcular a idade sempre que o campo da data de nascimento for alterado:
+
       birthField.addEventListener('change', (event) => {
          const date = new Date(event.target.value)
 
-         // concatenando a idade calculada com o termo "anos":
+
          ageField.value = getAge(date) + ' anos'
       })
    </script>

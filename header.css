@@ -1,7 +1,7 @@
 .cabecalho__menu-hamburger{
        width: 35px;
        height:35px;
-       background-image: url("menu-hamburger.png");
+       background-image: url("../imagens/menu-hamburger.png");
        background-repeat: no-repeat;
        background-position: center;
        display:inline-block;
@@ -113,16 +113,21 @@
 .formulario{
        display: inline-table;
        text-align: center;
+       font-size: large;
 }
 .formulario label{
        display: inline-flexbox;
+       text-align: center;
 }
 .formulario input{
-       padding: 2px 3px;
-       margin: 6px 6px 10px;
-       border-radius: 10px;
-	border-styles:insert;
-	padding-inline: 2px;
+
+       margin: 0px 8px 0px 11px;
+       border-radius: 5px;
+       text-align: center;
+       size: 50px;
+       
+       
+       
 }
 .escolha{
        padding: 2px 2px;
@@ -133,5 +138,6 @@
 }
 .button-submition{
        width: 75px;
+       background-color: rgb(222, 222, 231);
        
 }
